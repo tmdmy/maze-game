@@ -3,8 +3,9 @@ Create an exploration maze. As a prospect, I would like to create an automatic s
 # Purpose
 Learning C 
 # Progress
-none
+*made maze.c/maze.h
 # File description 
 -
 # How to do it 
 -
+
