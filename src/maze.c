@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "maze.h"
+#include maze.h
 
 Maze load_maze(const char *filename){
     Maze maze;
