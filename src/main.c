@@ -1,13 +1,8 @@
-#include "maze.h"
 #include <stdio.h>
+#include "maze.h"
 
-int main(){
-    Maze maze = load_maze("maze.txt");
+int main(void) {
+    Maze maze = load_maze("maps/maze1.txt");
     print_maze(&maze);
-
-    int pr,pc;
-    find_position(&maze, 'S', &pr, &pc);
-    printf("Player start at (%d, %d)\n", pr, pc);
-
     return 0;
 }
