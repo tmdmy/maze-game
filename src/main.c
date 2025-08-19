@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-    Maze maze = load_maze("maze.txt");
+    Maze maze = load_maze("maps\maze.txt");
     print_maze(&maze);
 
     int pr,pc;
